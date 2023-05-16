@@ -1,0 +1,84 @@
+.OrderBox {
+    border: solid black 1px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    margin:10px;
+}
+button:hover {
+    background-color: #3e8e41;
+}
+.select-tab {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    width:200px;
+}
+
+.select-tab select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 36px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    font-size: 16px;
+}
+body {
+    text-align: center;
+}
+.OrderList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.PizzaSelectionBox
+{
+    border:solid rgb(66 57 57) 1px;
+    border-radius:10px;
+    width:fit-content;
+    margin:auto;
+    padding:10px;
+}
+ul.tutorial-list {
+    list-style-type: decimal;
+    padding-left: 0px;
+    border-radius: 10px;
+    border: black solid 1px;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    padding-left: 30px;
+}
+
+ul.tutorial-list li {
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
