@@ -1,7 +1,9 @@
 # Pizza-app
-This is a small full stack app that allows you to create a custom pizza order, calculates it's price and save it.
+This is a small full stack app that allows you to create custom pizza orders, calculates their price and save them in a list.
 
-How to use the program:
+I used .Net for backend and React for frontend.
+
+How to use the website:
 
 Select your pizza size.
 Select your pizza toppings. You must select at least one.
